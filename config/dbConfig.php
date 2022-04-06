@@ -1,7 +1,7 @@
 <?php
 $dbConfig = [
-    'host' => "localhost:8889",
-    'dbname' => "blog",
+    'host' => "localhost",
+    'dbname' => "carte",
     'user' => "root",
     'password' => "root"
 ];
