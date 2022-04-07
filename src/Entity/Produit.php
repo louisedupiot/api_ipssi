@@ -3,7 +3,7 @@ namespace App\Entity;
 
 use Core\Entity\DefaultEntity;
 
-class Article extends DefaultEntity {
+class Produit extends DefaultEntity {
 
     private readonly int $id;
 

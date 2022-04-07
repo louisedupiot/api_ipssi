@@ -13,14 +13,14 @@ SET time_zone = "+00:00";
 --
 -- Base de données :  `blog`
 --
-  CREATE DATABASE IF NOT EXISTS blog;
+  CREATE DATABASE IF NOT EXISTS api_ipssi;
 -- --------------------------------------------------------
-  USE blog;
+  USE api_ipssi;
 --
 -- Structure de la table `article`
 --
 
-CREATE TABLE `article` (
+CREATE TABLE `produit` (
   `id` int(11) NOT NULL,
   `title` varchar(120) NOT NULL,
   `content` text,
@@ -31,7 +31,7 @@ CREATE TABLE `article` (
 -- Déchargement des données de la table `article`
 --
 
-INSERT INTO `article` (`id`, `title`, `content`, `categorie_id`) VALUES
+INSERT INTO `produit` (`id`, `title`, `content`, `categorie_id`) VALUES
 (1, 'Hamburger', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos officiis fuga eligendi. Itaque voluptas, possimus nemo nesciunt laudantium nostrum explicabo non blanditiis similique ad optio tempore qui ipsam quibusdam a.', 1),
 (2, 'Cheseburger', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos officiis fuga eligendi. Itaque voluptas, possimus nemo nesciunt laudantium nostrum explicabo non blanditiis similique ad optio tempore qui ipsam quibusdam a.', 1),
 (3, 'Big Mac', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos officiis fuga eligendi. Itaque voluptas, possimus nemo nesciunt laudantium nostrum explicabo non blanditiis similique ad optio tempore qui ipsam quibusdam a.', 1),

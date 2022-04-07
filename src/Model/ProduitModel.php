@@ -10,7 +10,7 @@ use Core\Model\DefaultModel;
  * @method int update(int $id, array $data)
  * @method int delete (int $id)
  */
-class ArticleModel extends DefaultModel {
-    protected string $table = "article";
-    protected string $entity = "Article";
+class ProduitModel extends DefaultModel {
+    protected string $table = "produit";
+    protected string $entity = "Produit";
 }

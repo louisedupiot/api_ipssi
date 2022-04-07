@@ -1,14 +1,14 @@
 <?php
 namespace App\Controller;
 
-use App\Model\ArticleModel;
+use App\Model\ProduitModel;
 use Core\Controller\DefaultController;
 
 
-class ArticleController extends DefaultController {
+class ProduitController extends DefaultController {
 
     public function __construct(
-        private ArticleModel $model = new ArticleModel
+        private ProduitModel $model = new ProduitModel
     ){}
 
     /**
