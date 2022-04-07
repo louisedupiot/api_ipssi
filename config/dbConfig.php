@@ -1,7 +1,7 @@
 <?php
 $dbConfig = [
-    'host' => "localhost",
-    'dbname' => "carte",
+    'host' => "localhost:8000",
+    'dbname' => "api_ipssi",
     'user' => "root",
     'password' => "root"
 ];
